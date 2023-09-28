@@ -207,7 +207,7 @@ export default function AboutUs(){
 
             <Section className='bg-slate-100' containerClassName='grid md:grid-cols-2 gap-3'>
                 <div className='flex flex-col gap-y-2'>
-                    <h2 className="title text-secondary">
+                    <h2 className="title with-border text-secondary">
                         Helping each other can make world better
                     </h2>
                     <p className=' lg:pr-10 xl:pr-14'>
@@ -232,9 +232,9 @@ export default function AboutUs(){
                 </div>
             </Section>
             <Section id='our-team' className='' containerClassName='flex flex-col gap-y-10'>
-                <h2 className='title text-secondary'>Our Team</h2>
+                <h2 className='title with-border text-secondary'>Our Team</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8">
-                    { generateTeamates(12).map( TeamateCard ) }
+                    { generateTeamates(12).map( (teamate, index) => <TeamateCard key={index} {...teamate} /> ) }
                 </div>
             </Section>
         </>

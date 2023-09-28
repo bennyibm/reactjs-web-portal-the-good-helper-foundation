@@ -52,7 +52,7 @@ export default function Header(){
     const NavMenu = useCallback( () => (
         <div className="group sticky z-50 top-0 w-full bg-white shadow">
             <div className='container flex justify-between py-2'>
-                <Logo />
+                <Logo className='flex-1' />
                 <nav className='flex items-center gap-x-4'>
                     <ul className="list-none flex gap-x-2 md:gap-x-6 text-secondary text-xs sm:text-sm md:text-base">
                         { menuItems.map( (item, index) => <MenuItem key={index} {...item} />)}                    
