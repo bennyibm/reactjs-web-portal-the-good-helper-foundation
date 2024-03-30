@@ -19,7 +19,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .container{
-    @apply mx-auto px-4;
+    @apply mx-auto px-4 md:max-w-3xl lg:max-w-6xl 2xl:max-w-7xl;
 }
 .title{
     @apply text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold;
