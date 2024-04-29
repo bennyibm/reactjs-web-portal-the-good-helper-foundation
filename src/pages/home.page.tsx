@@ -55,7 +55,7 @@ export default function Home(){
             <Section className='' container={false} overlayOpacity='bg-opacity-40' bgImage='/images/the-good-helper-foundation-no-home.jpeg'>
                 <div className='absolute top-0 bottom-0 left-0  w-full md:w-3/4 lg:w-2/3 bg-secondary bg-opacity-80 md:bg-opacity-90 md:rounded-tr-[20rem]' />
                 <div className="container relative z-10 grid md:grid-cols-3 text-white">
-                    <div className="col-span-2 flex flex-col gap-y-6 text-sm lg:text-xl md:pr-4 lg:pr-0">                        
+                    <div className="col-span-2 flex flex-col gap-y-6 lg:gap-y-12 text-sm lg:text-xl md:pr-4 lg:pr-0">                        
                         <h2 className="title">Who Are We ?</h2>
                         <p className="">
                             We’re raising money to make a difference and further our cause. To meet new challenges, the GOOD HELPER FOUNDATION set up this 
